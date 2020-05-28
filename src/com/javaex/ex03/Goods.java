@@ -49,7 +49,7 @@ public class Goods {
 //------------------------------------------				showInfo()
 
 	public void showInfo() {
-		System.out.println("[Information] : " + name + " (가격 : " + price + "원 ) 이 " + count + "개 입고 되었습니다.");
+		System.out.println("[Information] :\n" + name + " (가격 : " + price + "원 ) 이(가) " + count + "개 입고 되었습니다.");
 	}
 
 //------------------------------------------				toString()

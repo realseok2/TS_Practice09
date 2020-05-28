@@ -28,9 +28,10 @@ public class GoodsApp {
 				for (int i = 0; i < gList.size(); i++) {
 					gList.get(i).showInfo();
 					csum = csum + gList.get(i).getCount();
-					psum = psum + gList.get(i).getPrice();
+					psum = psum + gList.get(i).getPrice() * gList.get(i).getCount();
 
 				}
+				System.out.println("[ Total ] ");
 				System.out.println("모든 상품의 갯수는 " + csum + "개입니다.");
 				System.out.println("모든 상품의 합계 금액은 " + psum + "원입니다.");
 				break;
