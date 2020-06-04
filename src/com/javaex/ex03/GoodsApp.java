@@ -51,30 +51,6 @@ public class GoodsApp {
 
 		}
 
-//		do {
-//
-//			for (int i = 0; i < gList.size(); i++) {
-//				String line = sc.nextLine();
-//				String gArray[] = line.split(",");
-//
-//				String name = gArray[0];
-//				int price = Integer.parseInt(gArray[1]);
-//				int count = Integer.parseInt(gArray[2]);
-//
-//				Goods goods = new Goods(name, price, count);
-//				gList.add(goods);
-//			}
-//
-//		} while (exit != true);
-//
-//		System.out.println("[ 입력완료 ]");
-//		System.out.println("------------------------------");
-//
-//		for (int i = 0; i < gList.size(); i++) {
-//			gList.get(i).showInfo();
-//			sum = sum + gList.get(i).getCount();
-//		}
-
 		sc.close();
 
 	}
